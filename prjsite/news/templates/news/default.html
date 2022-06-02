@@ -1,0 +1,9 @@
+{% extends 'main.html' %}
+
+{% block title %}
+
+<p><h1>{{ new.title }}</h1>{{new.datePublication|date:'M d Y'}}</p>
+<p>{{ new.text }}</p>
+<p>{{' Post rating = '}}{{ new.rating }}</p>
+
+{% endblock %}
